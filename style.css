@@ -103,7 +103,7 @@ span,
           margin-top: 50px;
           display: flex;
           flex-wrap: wrap;
-          flex-direction: row;
+
           gap: 20px;
 }
 
@@ -153,6 +153,10 @@ span,
           display: grid;
           grid-template-columns: repeat(3, 1fr);
           gap: 20px;
+}
+
+.skills p:last-child {
+          grid-column: 2 / span 2;
 }
 
 /* Media Queries */
